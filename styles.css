@@ -42,12 +42,11 @@ li a {
 }
 
 #creator-names {
-  margin: 10px 50px;
-  list-style-type: disc;
+  margin: 10px 10px;
+  list-style-type: none;
   background-color: white;
-  width: 100px;
   line-height: 40px;
-  display:inline-block
+  display:block;
 }
 
 /* Change the link color to #111 (black) on hover */
