@@ -9,9 +9,15 @@ p {
 }
 
 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 li {
+  float: left;
 }
 
 li a {
@@ -20,31 +26,15 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-
-  
 }
 
-/* Navigation Menu*/
-#navigation-menu{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
 
- 
-}
-.navigation-menu-link-left{
-  float: left;
-}
-.navigation-menu-link-right{
-  float: right;
-}
+
+
 
 #creator-names {
   margin: 10px 10px;
