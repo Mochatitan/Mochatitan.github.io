@@ -12,6 +12,7 @@ p {
   text-align: center;
   padding: 20px;
 }
+
 #ulTopBar {
   list-style-type: none;
   margin: 0;
@@ -24,11 +25,11 @@ p {
   top: 0;
 }
 
-#ulTopBar li{
+.topli{
   float: left;
 }
 
-#ulTopBar li a {
+.toplia {
   display: block;
   color: white;
   text-align: center;
@@ -37,7 +38,7 @@ p {
 }
 
 /* Change the link color to #111 (black) on hover */
-#ulTopBar li a:hover {
+.toplia:hover {
   background-color: #111;
 }
 .active {
