@@ -31,10 +31,9 @@ li a {
   background-color: #333;
   
   position: fixed;
-  right: 0;
-  top: 50%;
-  width: 8em;
-  margin-top: -2.5em;
+  top: 100%;
+
+ 
 }
 .navigation-menu-link-left{
   float: left;
