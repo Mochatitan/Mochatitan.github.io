@@ -2,10 +2,10 @@ body {
   background-color:  white;
 }
 h1 {
-  color: blue;
+  color: black;
 }
 p {
-  color: red;
+  color: black;
 }
 
 #ulTopBar {
@@ -15,16 +15,16 @@ p {
   overflow: hidden;
   background-color: #333;
   
-   position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky; 
   position: sticky;
   top: 0;
 }
 
-#liTopBar {
+#ulTopBar li{
   float: left;
 }
 
-#liTopBar a {
+#ulTopBar li a {
   display: block;
   color: white;
   text-align: center;
@@ -33,14 +33,14 @@ p {
 }
 
 /* Change the link color to #111 (black) on hover */
-#liTopBar a:hover {
+#ulTopBar li a:hover {
   background-color: #111;
 }
 .active {
   background-color: #04AA6D;
 }
 
-ul {
+#sideul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -48,7 +48,7 @@ ul {
   background-color: #f1f1f1;
 }
 
-li a {
+#sideul li a {
   display: block;
   color: #000;
   padding: 8px 16px;
@@ -56,7 +56,7 @@ li a {
 }
 
 /* Change the link color on hover */
-li a:hover {
+#sideul li a:hover {
   background-color: #555;
   color: white;
 }
