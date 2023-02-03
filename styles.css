@@ -132,7 +132,7 @@ p {
   cursor: pointer;
   transition-duration: 0.4s;
   position:fixed;
-  left: 90%;
+  left: 95%;
   margin-top:25%;
 }
 .scroll-up-button:hover{
