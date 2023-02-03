@@ -131,9 +131,9 @@ p {
   border-radius: 12px;
   cursor: pointer;
   transition-duration: 0.4s;
-  position:fixed;
-  left: 95vh;
-  margin-top:25vh;
+  position: fixed;
+  bottom: -4px;
+  right: 10px;
 }
 .scroll-up-button:hover{
   background-color: #AAAAAA; /* Green */
