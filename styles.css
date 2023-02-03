@@ -1,5 +1,6 @@
 body {
   background-color:  white;
+  margin: 0;
 }
 h1 {
   color: black;
@@ -46,13 +47,15 @@ p {
 }
 
 .side-ul {
-  float:left;
-  position: sticky;
+  background-color: #f1f1f1;
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
-  height: 100vh;
+  width: 25%;
   background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 .side-ul li {
   display: block;
@@ -63,18 +66,25 @@ p {
   display: block;
   color: #000;
   padding: 8px 16px;
+  text-decoration: none;
 }
 
-/* Change the link color on hover */
-.side-ul li a:hover {
+.side-ul li a:active{
+  background-color: #04AA6D;
+  color: white;
+  
+}
+
+.side-ul li a:hover:not(.active) {
   background-color: #555;
   color: white;
 }
+/*
 .information{
   float: left;
   margin: 20px;
 }
-
+*/
 #creator-names {
   margin: 10px 10px;
   list-style-type: none;
@@ -82,7 +92,6 @@ p {
   line-height: 40px;
   display:block;
 }
-
 
 
 
