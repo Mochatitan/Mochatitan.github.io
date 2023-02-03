@@ -12,9 +12,13 @@ p {
   text-align: center;
   padding: 20px;
 }
-
-.ulTopBar {
+.navigation-ul li{
   list-style-type: none;
+}
+.navigation-ul li a{
+  text-decoration: none;
+}
+.top-ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -25,45 +29,50 @@ p {
   top: 0;
 }
 
-.ulTopBar li{
+.top-ul li{
   float: left;
 }
 
-.ulTopBar li a{
+.top-ul li a{
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
-.ulTopBar a:hover {
+.top-ul a:hover, .top-ul a:active, .top-ul .active {
   background-color: #111;
 }
-.active {
-  background-color: #04AA6D;
-}
 
-.sideul {
-  list-style-type: none;
+.side-ul {
+  float:left;
+  position: sticky;
   margin: 0;
   padding: 0;
   width: 200px;
+  height: 100vh;
   background-color: #f1f1f1;
 }
+.side-ul li {
+  display: block;
+  color: #000;
+}
 
-.sideul li a {
+.side-ul li a {
   display: block;
   color: #000;
   padding: 8px 16px;
-  text-decoration: none;
 }
 
 /* Change the link color on hover */
-.sideul li a:hover {
+.side-ul li a:hover {
   background-color: #555;
   color: white;
+}
+.information{
+  float: left;
+  margin: 20px;
 }
 
 #creator-names {
@@ -107,6 +116,9 @@ p {
 .button-63:active,
 .button-63:hover {
   outline: 0;
+}
+.scroll-up-button{
+  
 }
 
 @media (min-width: 768px) {
