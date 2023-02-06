@@ -58,7 +58,7 @@ p {
 
 .side-ul {
   list-style-type: none;
-  top:0;
+  top:60px;
   margin: 0;
   padding: 0;
   width: 25%;
