@@ -13,10 +13,7 @@ p {
   text-align: center;
   padding: 20px;
 }
-.navigation-ul{
-  position: -webkit-sticky; 
-  position: sticky;
-}
+
 
 .navigation-ul li{
   list-style-type: none;
