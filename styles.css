@@ -24,10 +24,10 @@ p {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  
-  position: -webkit-sticky; 
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100%;
+
 }
 
 .top-ul li{
