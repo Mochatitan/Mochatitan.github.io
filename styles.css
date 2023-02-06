@@ -13,11 +13,7 @@ p {
   text-align: center;
   padding: 20px;
 }
-.navigation-ul{
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
 
-}
 .navigation-ul li{
   list-style-type: none;
 }
@@ -29,7 +25,7 @@ p {
   padding: 0;
   overflow: hidden;
   background-color: #333;
- /* position: -webkit-sticky; 
+  position: -webkit-sticky; 
   position: sticky;*/
   top: 0;
   width: 100%;
@@ -61,7 +57,7 @@ p {
   background-color: #f1f1f1;
   /*position: -webkit-sticky; 
   position: sticky;*/
-  top: 0;
+  top: 80;
   height: 100%;
   overflow: auto;
 
