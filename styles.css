@@ -28,7 +28,7 @@ p {
   position: sticky;
   top: 0;
   width: 100%;
-
+  height: 50px;
 }
 
 .top-ul li{
@@ -56,9 +56,12 @@ p {
   background-color: #f1f1f1;
   position: -webkit-sticky; /* Safari */
   position: sticky;
-  top: 0;
+  top: 52;
   height: 100%;
   overflow: auto;
+
+  /*position: fixed;  Make it stick, even on scroll */
+  
   
 }
 .side-ul li {
