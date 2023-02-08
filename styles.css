@@ -10,12 +10,8 @@ p {
   color: black;
 }
 .header {
-<<<<<<< Updated upstream
-  background-color: #F1F1F1;
-=======
   background-color: #333;
   color: white;
->>>>>>> Stashed changes
   text-align: center;
   margin: 0;
   padding: 16px;
