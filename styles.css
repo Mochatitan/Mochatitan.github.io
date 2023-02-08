@@ -105,6 +105,7 @@ html {
 
 
 .scroll-up-button {
+  bottom: 8px;
   display: inline-block;
   padding: 15px 25px;
   font-size: 24px;
