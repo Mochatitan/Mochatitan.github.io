@@ -28,7 +28,6 @@ html {
 
   /* Set a specific height */
   height: 100vh;
-  width: 100vw;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -107,7 +106,7 @@ html {
 
 .scroll-up-button {
   display: inline-block;
-  padding: 15px 25px;
+  padding: 8px 8px;
   font-size: 24px;
   cursor: pointer;
   text-align: center;
