@@ -21,15 +21,16 @@ body {
   
   .world-imperialism-map-parallax {
     /* The image used */
-    background-image: url("worldImperialismMap.png");
+    background-image: url("images/World_empires_and_colonies_around_World_War_I.png");
   
+    background-size: 10px;
     /* Set a specific height */
     height: 100vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
   
   .nav-ul{
