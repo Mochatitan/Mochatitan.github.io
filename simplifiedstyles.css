@@ -6,6 +6,9 @@ body {
     overflow: visible;
     overflow-x: hidden;
   }
+  h2 {
+      font-size: 26pt;
+  }
   p {
     color: black;
     text-indent: 50px;
