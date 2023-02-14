@@ -25,6 +25,10 @@ body {
     scroll-behavior: smooth;
   }
   
+  .country-inf{
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
   
   .world-imperialism-map-parallax {
     /* The image used */
